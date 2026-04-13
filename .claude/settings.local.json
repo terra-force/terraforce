@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls *.jpeg)",
+      "mcp__6a70a684-5864-4429-a83a-0d9b1d292896__getProjectXml",
+      "Bash(python3 -c \"from PIL import Image; [print\\(f'{f}: {Image.open\\(f\\).size}'\\) for f in ['gobishanth.jpeg','jathukula.jpeg','saisuthan.jpeg','sakiththiyan.jpeg','sathurshanan.jpeg']]\")",
+      "Bash(python -c \"from PIL import Image; [print\\(f'{f}: {Image.open\\(f\\).size}'\\) for f in ['gobishanth.jpeg','jathukula.jpeg','saisuthan.jpeg','sakiththiyan.jpeg','sathurshanan.jpeg']]\")",
+      "Bash(ls /c/Python*/python.exe)",
+      "Read(//c/Users/Admin/AppData/Local/Programs/**)",
+      "Bash(node -e ':*)",
+      "Bash(where node:*)",
+      "mcp__9a454b56-0d5b-4e1c-8806-0dc80ebfdae5__createPage"
+    ]
+  }
+}

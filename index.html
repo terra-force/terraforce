@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terra Force | Community-Rooted Environmental Conservation</title>
+  <meta name="description" content="Terra Force - A youth-led environmental conservation movement from the Jaffna Peninsula. Coastal cleanups, circular economy, and community action for a greener tomorrow.">
+  <link rel="icon" type="image/png" href="images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="preloader-inner">
+      <img src="images/logo.png" alt="Terra Force" class="preloader-logo">
+      <div class="preloader-bar"><div class="preloader-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- Cursor follower -->
+  <div id="cursor-glow"></div>
+
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">
+        <img src="images/logo.png" alt="Terra Force">
+        <span>TERRA FORCE</span>
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#impact" class="nav-link">Impact</a>
+        <a href="#initiatives" class="nav-link">Initiatives</a>
+        <a href="#gallery" class="nav-link">Gallery</a>
+        <a href="#community" class="nav-link">Community</a>
+        <a href="#join" class="nav-link nav-cta">Join the Force</a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="section hero">
+    <div class="hero-bg-layers">
+      <div class="hero-bg-img" style="background-image: url('images/hero-lagoon.jpg')"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-particles" id="heroParticles"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge animate-in">Community-Rooted Conservation</div>
+      <h1 class="hero-title animate-in">
+        <span class="line">Protecting the</span>
+        <span class="line accent">Jaffna Peninsula</span>
+        <span class="line">One Shore at a Time</span>
+      </h1>
+      <p class="hero-subtitle animate-in">We are Terra Force &mdash; a youth-led movement turning the tide on environmental destruction through coastal cleanups, circular economy advocacy, and community action.</p>
+      <div class="hero-actions animate-in">
+        <a href="#join" class="btn btn-primary">
+          <span>Join the Movement</span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="#about" class="btn btn-ghost">
+          <span>Our Story</span>
+        </a>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <div class="scroll-line"></div>
+      <span>Scroll to Explore</span>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual">
+          <div class="about-img-wrapper reveal-left">
+            <img src="images/team-group.jpg" alt="Terra Force volunteers" loading="lazy">
+          </div>
+          <div class="about-floating-card reveal-up">
+            <div class="floating-stat">
+              <span class="stat-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              </span>
+              <span class="stat-label">Est. Jaffna Peninsula</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-content">
+          <div class="section-label reveal-up">Who We Are</div>
+          <h2 class="section-title reveal-up">Built by the People,<br><span class="accent">For the Planet</span></h2>
+          <p class="about-text reveal-up">Terra Force is more than an organization &mdash; it's a community-rooted movement born from the shores of the Jaffna Peninsula. We believe that lasting environmental change starts at the grassroots level, with the people who call this land home.</p>
+          <p class="about-text reveal-up">Our work spans coastal cleanups that restore our lagoons and shores, circular economy initiatives that reimagine waste, and community forums that empower every citizen to become a guardian of nature.</p>
+          <div class="about-values reveal-up">
+            <div class="value-pill"><span class="value-dot green"></span>Environmental Action</div>
+            <div class="value-pill"><span class="value-dot blue"></span>Circular Economy</div>
+            <div class="value-pill"><span class="value-dot green"></span>Community Power</div>
+            <div class="value-pill"><span class="value-dot blue"></span>Youth Leadership</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Impact Counter Section -->
+  <section id="impact" class="section impact">
+    <div class="impact-bg">
+      <div class="impact-gradient"></div>
+    </div>
+    <div class="container">
+      <div class="section-label reveal-up center">Our Impact</div>
+      <h2 class="section-title reveal-up center">Every Action<br><span class="accent">Creates Ripples</span></h2>
+      <div class="impact-grid">
+        <div class="impact-card reveal-up">
+          <div class="impact-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <div class="impact-number" data-target="500">0</div>
+          <div class="impact-suffix">+</div>
+          <div class="impact-label">Active Volunteers</div>
+        </div>
+        <div class="impact-card reveal-up" style="--delay: 0.1s">
+          <div class="impact-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 6l3 1 2-3 3 5 2-2 4 4 4-6"/><path d="M3 18h18"/></svg>
+          </div>
+          <div class="impact-number" data-target="25">0</div>
+          <div class="impact-suffix">+</div>
+          <div class="impact-label">Cleanups Completed</div>
+        </div>
+        <div class="impact-card reveal-up" style="--delay: 0.2s">
+          <div class="impact-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <div class="impact-number" data-target="15">0</div>
+          <div class="impact-suffix">+</div>
+          <div class="impact-label">Coastal Sites Restored</div>
+        </div>
+        <div class="impact-card reveal-up" style="--delay: 0.3s">
+          <div class="impact-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+          </div>
+          <div class="impact-number" data-target="3">0</div>
+          <div class="impact-suffix"></div>
+          <div class="impact-label">Forums & Summits Held</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Initiatives Section -->
+  <section id="initiatives" class="section initiatives">
+    <div class="container">
+      <div class="section-label reveal-up center">What We Do</div>
+      <h2 class="section-title reveal-up center">Our <span class="accent">Initiatives</span></h2>
+      <div class="initiatives-grid">
+        <div class="initiative-card reveal-up">
+          <div class="initiative-img">
+            <img src="images/cleanup-waterside.jpg" alt="Coastal Cleanup" loading="lazy">
+            <div class="initiative-overlay"></div>
+          </div>
+          <div class="initiative-content">
+            <div class="initiative-tag">Flagship Program</div>
+            <h3>Coastal &amp; Lagoon Cleanups</h3>
+            <p>Organized community-driven cleanup campaigns along the Jaffna Peninsula's coastline and lagoon systems, removing plastic waste and restoring natural habitats.</p>
+          </div>
+        </div>
+        <div class="initiative-card reveal-up" style="--delay: 0.15s">
+          <div class="initiative-img">
+            <img src="images/cef-materials.jpg" alt="Circular Economy Forum" loading="lazy">
+            <div class="initiative-overlay"></div>
+          </div>
+          <div class="initiative-content">
+            <div class="initiative-tag">CEF 1.0</div>
+            <h3>Circular Economy Forum</h3>
+            <p>Introducing circular economy principles to the Northern Region &mdash; bringing together community leaders, entrepreneurs, and youth to reimagine how we produce, consume, and recycle.</p>
+          </div>
+        </div>
+        <div class="initiative-card reveal-up" style="--delay: 0.3s">
+          <div class="initiative-img">
+            <img src="images/cef-presenter.jpg" alt="Community Education" loading="lazy">
+            <div class="initiative-overlay"></div>
+          </div>
+          <div class="initiative-content">
+            <div class="initiative-tag">Awareness</div>
+            <h3>Community Education</h3>
+            <p>Workshops, forums, and grassroots campaigns that empower every citizen &mdash; from school children to village elders &mdash; to become stewards of their environment.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Parallax Divider -->
+  <section class="parallax-divider">
+    <div class="parallax-bg" style="background-image: url('images/cleanup-shore.jpg')"></div>
+    <div class="parallax-overlay"></div>
+    <div class="parallax-content reveal-up">
+      <blockquote>"The earth does not belong to us. We belong to the earth."</blockquote>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="section gallery">
+    <div class="container">
+      <div class="section-label reveal-up center">In Action</div>
+      <h2 class="section-title reveal-up center">Stories From <span class="accent">the Field</span></h2>
+      <div class="gallery-grid">
+        <div class="gallery-item large reveal-up">
+          <img src="images/hero-lagoon.jpg" alt="Volunteers cleaning coast" loading="lazy">
+          <div class="gallery-caption">Lagoon Cleanup, Jaffna</div>
+        </div>
+        <div class="gallery-item reveal-up" style="--delay: 0.1s">
+          <img src="images/cef-speaker.jpg" alt="Forum speaker" loading="lazy">
+          <div class="gallery-caption">Circular Economy Forum 1.0</div>
+        </div>
+        <div class="gallery-item reveal-up" style="--delay: 0.2s">
+          <img src="images/cleanup-beach.jpg" alt="Beach cleanup" loading="lazy">
+          <div class="gallery-caption">Shoreline Restoration</div>
+        </div>
+        <div class="gallery-item reveal-up" style="--delay: 0.1s">
+          <img src="images/cef-audience.jpg" alt="Community engagement" loading="lazy">
+          <div class="gallery-caption">Community Engagement</div>
+        </div>
+        <div class="gallery-item tall reveal-up" style="--delay: 0.2s">
+          <img src="images/cleanup-waterside.jpg" alt="Waterside cleanup" loading="lazy">
+          <div class="gallery-caption">Coastal Conservation</div>
+        </div>
+        <div class="gallery-item reveal-up" style="--delay: 0.15s">
+          <img src="images/cef-materials.jpg" alt="CEF materials" loading="lazy">
+          <div class="gallery-caption">Sustainable Materials</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Community Section -->
+  <section id="community" class="section community">
+    <div class="container">
+      <div class="community-grid">
+        <div class="community-content">
+          <div class="section-label reveal-up">Our People</div>
+          <h2 class="section-title reveal-up">A Force of<br><span class="accent">Nature Lovers</span></h2>
+          <p class="reveal-up">From university students to local fishermen, Terra Force brings together people from all walks of life united by one purpose: protecting the natural beauty of the Jaffna Peninsula.</p>
+          <p class="reveal-up">Our volunteers don't just clean &mdash; they educate, inspire, and lead. Every cleanup is a classroom. Every forum is a launchpad for new ideas.</p>
+          <div class="community-stats reveal-up">
+            <div class="comm-stat">
+              <div class="comm-stat-number">4+</div>
+              <div class="comm-stat-label">Villages Reached</div>
+            </div>
+            <div class="comm-stat">
+              <div class="comm-stat-number">100%</div>
+              <div class="comm-stat-label">Youth-Led</div>
+            </div>
+          </div>
+        </div>
+        <div class="community-visual">
+          <div class="community-img-stack">
+            <img src="images/team-group.jpg" alt="Terra Force team" class="stack-img main reveal-right" loading="lazy">
+            <img src="images/cef-audience.jpg" alt="Community forum" class="stack-img secondary reveal-right" loading="lazy" style="--delay: 0.2s">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA / Join Section -->
+  <section id="join" class="section join">
+    <div class="join-bg">
+      <div class="join-gradient"></div>
+      <div class="join-particles" id="joinParticles"></div>
+    </div>
+    <div class="container">
+      <div class="join-content">
+        <div class="section-label reveal-up center light">Take Action</div>
+        <h2 class="section-title reveal-up center light">Become Part of<br><span class="accent-light">the Force</span></h2>
+        <p class="join-text reveal-up">Whether you can volunteer an hour or lead a campaign, there's a place for you in Terra Force. Together, we're building a greener, cleaner Jaffna Peninsula.</p>
+        <div class="join-actions reveal-up">
+          <a href="https://www.facebook.com/TerraForce" target="_blank" rel="noopener" class="btn btn-white">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            <span>Follow on Facebook</span>
+          </a>
+          <a href="mailto:terraforce@gmail.com" class="btn btn-outline-white">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <span>Get in Touch</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <img src="images/logo.png" alt="Terra Force" class="footer-logo">
+          <span class="footer-name">TERRA FORCE</span>
+          <p class="footer-tagline">Community-Rooted Environmental Conservation<br>Jaffna Peninsula, Sri Lanka</p>
+        </div>
+        <div class="footer-links">
+          <a href="#about">About</a>
+          <a href="#impact">Impact</a>
+          <a href="#initiatives">Initiatives</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#community">Community</a>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 Terra Force. Built by the people, for the planet.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
